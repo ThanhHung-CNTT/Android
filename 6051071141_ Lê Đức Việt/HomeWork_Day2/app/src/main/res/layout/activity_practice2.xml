@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008677"
+    android:stretchColumns="*"
+    android:orientation="vertical"
+    tools:context=".Practice2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="#00584C">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="Chọn dịch vụ"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <Button
+        android:layout_width="120dp"
+        android:text="Thoát"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#C6FFFFFF" />
+
+</LinearLayout>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:src="@drawable/maygiat"
+            android:backgroundTint="#008677"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:layout_height="130dp"/>
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:src="@drawable/khachsan"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:backgroundTint="#008677"
+            android:layout_height="130dp"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giặt ủi"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khách sạn"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:src="@drawable/taxi"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:backgroundTint="#008677"
+            android:layout_height="130dp"/>
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:src="@drawable/thucannhanh"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:backgroundTint="#008677"
+            android:layout_height="130dp"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taxi"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thức ăn nhanh"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_column="1"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="#008677"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/vanchuyen" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vận chuyển"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+    </TableRow>
+</TableLayout>
+
+</LinearLayout>

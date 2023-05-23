@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAIN ACTIVITY"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnOpenSub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Sub #1"
+        android:textSize="22sp"
+        android:backgroundTint="#009688"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnOpenSub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Sub #2"
+        android:textSize="22sp"
+        android:backgroundTint="#FF9800"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnOpenSub3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Sub #3"
+        android:textSize="22sp"
+        android:backgroundTint="#2196F3"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        />
+
+    <Button
+        android:id="@+id/btnSendData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send data -> Sub #4"
+        android:textSize="22sp"
+        android:backgroundTint="#F44336"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

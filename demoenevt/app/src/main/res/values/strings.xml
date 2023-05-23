@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">eventdemo</string>
+    <string-array name="foodList">
+        <item>Bún đậu</item>
+        <item>Bún chả</item>
+        <item>Bún riêu</item>
+        <item>Bún thịt nướng</item>
+        <item>Bún măng bịt</item>
+        <item>Bún bò</item>
+        <item>Bún ốc</item>
+        <item>Bún nước lèo</item>
+        <item>Bún mộc</item>
+        <item>Bún vịt</item>
+        <item>Bún lươn</item>
+        <item>Bún chay</item>
+        <item>Bún quậy</item>
+    </string-array>
+</resources>

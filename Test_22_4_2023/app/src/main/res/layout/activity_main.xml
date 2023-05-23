@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtMaTour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã tour"
+            android:layout_marginBottom="8dp"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/edtTenTour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên tour"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etdMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mô tả"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/edtSoLuongKhach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng hành khách"
+            android:layout_marginBottom="8dp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/edtLichTrinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lịch trình"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/edtGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá"
+            android:layout_marginBottom="8dp"
+            android:inputType="numberDecimal"/>
+
+        <ImageButton
+            android:id="@+id/btnHinhAnh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_tour_24"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnThem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#933416"
+                android:text="Thêm"/>
+
+            <Button
+                android:id="@+id/btnSua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#933416"
+                android:text="Sửa"/>
+
+            <Button
+                android:id="@+id/btnXoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#933416"
+                android:text="Xoá"/>
+
+            <Button
+                android:id="@+id/btnXem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#933416"
+                android:text="Xem"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvTour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
